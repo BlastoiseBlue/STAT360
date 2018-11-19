@@ -1,0 +1,30 @@
+#Emmet Stanevich
+#Exam 2
+#1a
+x=(0:4)
+px=c(.12,.34,.33,.13,.08)
+mean=sum(x*px)
+mean
+#1b
+var=sum((x-mean)^2*px)
+var
+#1c
+sd=sqrt(var)
+cv=(sd/mean)*100
+cv
+#2a
+x=0:10
+px=dbinom(x,10,0.6)
+round(px,3)
+#2b
+fx=pbinom(x,10,0.6)
+round(fx,3)
+#2c
+mean=sum(x*px)
+mean
+var=sum((x-mean)^2*px)
+var
+#2d
+3*mean+4
+3*var
+#3a
