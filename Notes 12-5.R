@@ -1,0 +1,9 @@
+xbar=68690
+n=35
+sigma=9480
+z=qnorm(0.975,0,1)
+me=z*sigma/sqrt(n)
+ci=c(xbar-me,xbar+me)
+z.90=qnorm(0.95,0,1)
+n.90=(z.90*sigma/2.5)^2
+me.90=z.90*sigma/sqrt(n.90)

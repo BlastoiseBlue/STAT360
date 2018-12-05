@@ -1,0 +1,9 @@
+x=c(3,9,7,4,2,5)
+xbar=mean(x)
+xbar
+n=length(x)
+n
+z=qnorm(0.975,mean=0,sd=1)
+sigma=4
+ci=c(xbar-z*sigma/sqrt(n),xbar+z*sigma/sqrt(n))
+ci
